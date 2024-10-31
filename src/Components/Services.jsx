@@ -72,8 +72,8 @@ const Services = () => {
             />
             
             <div className='w-full sm:w-1/2 flex flex-col justify-center p-4'>
-              <h1 className="text-lg font-semibold mb-2">Increased Crop Yield</h1>
-              <p className="text-gray-600 mb-8">Our products help farmers achieve better crop quality.</p>
+              <h1 className="text-lg font-semibold mb-2 ">Increased Crop Yield</h1>
+              <p className="text-gray-600 mb-8 font-light">Our products help farmers achieve better crop quality.</p>
               <button className='bg-green-500 text-white rounded-md py-1 mx-6'>Explore</button>
             </div>
           </div>

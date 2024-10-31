@@ -1,15 +1,15 @@
-import React from 'react'
-import image4 from "../assets/image4.jpg"
+import React from 'react';
+import aboutpage from "../assets/aboutpage.jpg";
 
 const About = () => {
   return (
-    <div>
-      <div className=''>
-        <h2 className='flex justify-center text-4xl font-semibold text-green-500 py-4'>About Us</h2>
-        <img className='w-full h-80'
-        src={image4} alt="" />
+    <div className="flex flex-col items-center px-4 py-8">
+      <h2 className="text-4xl font-semibold text-green-500 py-4 text-center">About Us</h2>
+      <div className="flex justify-center mb-20">
+        <img className="max-w-full h-auto rounded-lg" src={aboutpage} alt="" />
       </div>
     </div>
-  )
-}
-export default About
+  );
+};
+
+export default About;
