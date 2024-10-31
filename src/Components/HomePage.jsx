@@ -9,7 +9,7 @@ const HomePage = () => {
         <h2 className='text-3xl font-semibold uppercase mb-4'>
           rinan <br /> agro mark nigeria limited
         </h2>
-        <hr className='flex flex-col items-center w-full border-2 border-green-500 rounded-md'/>
+        <hr className='flex flex-col items-center w-full border-1 border-green-500 rounded-md'/>
         <p className='text-gray-950 mt-7 font-light text-lg'>
           Has build a reputation for excellence in agricalture sector. <br />
           Our commitment to qaulity, sustainability, and customer <br />
