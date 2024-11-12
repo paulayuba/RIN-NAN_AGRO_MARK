@@ -59,7 +59,7 @@ const Card = [
 
 const Services = () => {
   return (
-    <div className='max-w-7xl mx-auto p-8'>
+    <div id='services' className='max-w-7xl mx-auto p-8'>
       <h2 className='text-3xl font-bold mb-6 text-center'>Our Services</h2>
       <p className='text-center text-lg mb-10'>Explore the services we offer.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
@@ -74,7 +74,9 @@ const Services = () => {
             <div className='w-full sm:w-1/2 flex flex-col justify-center p-4'>
               <h1 className="text-lg font-semibold mb-2 ">Increased Crop Yield</h1>
               <p className="text-gray-600 mb-8 font-light">Our products help farmers achieve better crop quality.</p>
-              <button className='bg-green-500 text-white rounded-md py-1 mx-6'>Explore</button>
+              <a href={`/services/${service.id}`} className='bg-green-500 text-white rounded-md py-1 mx-6 text-center'>
+                Explore
+              </a>
             </div>
           </div>
           

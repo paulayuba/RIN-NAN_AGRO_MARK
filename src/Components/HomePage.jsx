@@ -10,14 +10,18 @@ const HomePage = () => {
           rinan <br /> agro mark nigeria limited
         </h2>
         <hr className='flex flex-col items-center w-full border-1 border-green-500 rounded-md'/>
-        <p className='text-gray-950 mt-7 font-light text-lg'>
-          Has build a reputation for excellence in agricalture sector. <br />
-          Our commitment to qaulity, sustainability, and customer <br />
-          Satisfaction has eaned us the trust of farmers and <br />
-          Agribussiness across nigeria. we continue to build <br />
+        <p className='text-gray-950 mt-7 font-semibold text-xl'>
+          Has built a reputation for excellence in the agriculture sector. <br />
+          Our commitment to quality, sustainability, and customer <br />
+          satisfaction has earned us the trust of farmers and <br />
+          agribusinesses across Nigeria. We continue to build <br />
         </p>
         <div className='flex mt-4'>
-          <button className='bg-green-500 text-white py-3 px-6 rounded-md font-light border-lime-300 hover:bg-white border shadow-sm hover:text-green-500'>About Us</button>
+          <a 
+            href="/about" 
+            className='bg-green-500 text-white py-3 px-6 rounded-md font-light border-lime-300 hover:bg-white border shadow-sm hover:text-green-500'>
+            About Us
+          </a>
         </div>
       </div>
 
