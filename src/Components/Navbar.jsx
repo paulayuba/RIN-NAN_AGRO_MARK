@@ -37,6 +37,9 @@ const Navbar = () => {
           <li className="py-1 hover:underline cursor-pointer">
             <a href="/product">Product</a>
           </li>
+          <li className="py-1 hover:underline cursor-pointer">
+            <a href="/footer">Footer</a>
+          </li>
         </ul>
 
         {/* Login Button */}
