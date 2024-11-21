@@ -32,7 +32,7 @@ const About = () => {
         className="w-full flex justify-center flex-col md:flex-row gap-8 md:gap-56 items-center bg-green-500 text-white py-4 px-6 md:px-28 rounded-md"
       >
         {/* Social Media Icons */}
-        <ul className="flex items-center space-x-6 list-none text-3xl mt-6 md:mt-32">
+        <ul className="flex items-center space-x-6 list-none text-3xl mb-20 md:mt-32">
           <li>
             <a
               href="https://web.facebook.com/cletus.danladi?_rdc=1&_rdr#"
