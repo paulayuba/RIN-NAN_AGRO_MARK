@@ -25,7 +25,7 @@ const Navbar = () => {
           className={`${
             isOpen ? "flex" : "hidden"
           } md:flex flex-col md:flex-row items-center gap-6 font-medium text-xl absolute md:static bg-green-500 w-full left-0 top-full md:top-auto mt-4 md:mt-0 md:w-auto`}>
-          <li className="py-1 hover:underline cursor-pointer">
+          <li className="py-1 hover:underline no-underline cursor-pointer">
             <a href="/">Home</a>
           </li>
           <li className="py-1 hover:underline cursor-pointer">
@@ -43,7 +43,7 @@ const Navbar = () => {
         </ul>
 
         {/* Login Button */}
-        <a href="/login" className="hidden md:block bg-white text-green-400 px-6 py-2 rounded-md font-semibold hover:bg-purple-600">
+        <a href="/login" className="hidden md:block bg-white text-green-400 px-6 py-2 border-no  ne rounded-md font-semibold hover:bg-purple-600">
           Login
         </a>
       </div>

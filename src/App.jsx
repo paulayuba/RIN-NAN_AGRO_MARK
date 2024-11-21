@@ -3,8 +3,8 @@ import Navbar from './Components/Navbar';
 import HomePage from './Components/HomePage';
 import About from './Components/About';
 import Services from './Components/Services';
-import Product from "./Components/Product";
-import Footer from './Components/Footer';
+// import Product from "./Components/Product";
+// import Footer from './Components/Footer';
 
 
 const App = () => {
@@ -14,8 +14,8 @@ const App = () => {
       <HomePage />
       <About />
       <Services />
-      <Product />
-      <Footer />
+      {/* <Product /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
