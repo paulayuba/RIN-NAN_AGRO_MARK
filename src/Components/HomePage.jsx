@@ -22,7 +22,7 @@ const HomePage = () => {
           <div className="mt-6">
             <a
               href="/about"
-              className="bg-green-500 text-white py-3 px-6 rounded-md font-medium hover:bg-white hover:text-green-500 hover:border shadow-sm transition-colors"
+              className="outline-double outline-3 outline-offset-2 rounded-full py-3 px-8 bg-white text-black font-bold outline-green-700"
             >
               About Us
             </a>

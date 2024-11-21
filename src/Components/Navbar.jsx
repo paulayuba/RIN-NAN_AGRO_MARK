@@ -43,7 +43,7 @@ const Navbar = () => {
         </ul>
 
         {/* Login Button */}
-        <a href="/login" className="hidden md:block bg-white text-green-400 px-6 py-2 border-no  ne rounded-md font-semibold hover:bg-purple-600">
+        <a href="/login" className="outline-double outline-3 outline-offset-2 rounded-full py-3 px-8 bg-white text-green-500 font-bold outline-green-700">
           Login
         </a>
       </div>
