@@ -42,7 +42,7 @@ const Services = () => {
                 <p className="text-gray-600 mb-4">{service.description}</p>
                 <a
                   to={`/services/${service.id}`}
-                  className="outline-double outline-3 outline-offset-2 text-center rounded-full py-3 px-8 bg-white text-green-500 font-bold outline-green-700"
+                  className="outline-double outline-3 outline-offset-2 text-center rounded-full py-3 px-8 bg-white text-green-500 font-bold outline-green-700 cursor-pointer"
                 >
                   Explore
                 </a>

@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-green-500 fixed top-0 w-full left-0 py-4 px-6 text-white flex justify-between items-center border-b border-b-gray-400">
+    <div className="bg-green-500 fixed top-0 w-full left-0 py-4 px-6 text-white flex justify-between items-center border-b-4 border-t-4 border-b-orange-400">
       <div className="flex items-center justify-between w-full max-w-7xl">
         <img className="w-24 h-16 rounded-3xl" src={Rinnan} alt="Logo" />
 
