@@ -11,7 +11,7 @@ import { AiFillTikTok } from 'react-icons/ai';
 const Card = [
   { image: Card2, id: "four", description: "Improve soil health and fertility." },
   { image: Card5, id: "five", description: "Provide high-quality farming tools." },
-  { image: Card6, id: "six", description: "Support sustainable agriculture." },
+  { image: Card6, id: "six",  description: "Support sustainable agriculture." },
   { image: Card1, id: "seven", description: "Deliver innovative crop solutions." },
   { image: Card8, id: "eight", description: "Boost water efficiency in farming." },
   { image: Card9, id: "nine", description: "Enhance pest and weed control." },

@@ -3,9 +3,9 @@ import Navbar from './Components/Navbar';
 import HomePage from './Components/HomePage';
 import About from './Components/About';
 import Services from './Components/Services';
+import Product from "./Components/Product";
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
-// import Product from "./Components/Product";
 
 
 const App = () => {
@@ -15,9 +15,9 @@ const App = () => {
       <HomePage />
       <About />
       <Services />
+      <Product />
       <Contact />
       <Footer />
-      {/* <Product /> */}
         
     </div>
   );

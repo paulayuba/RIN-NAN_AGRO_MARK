@@ -5,10 +5,8 @@ import { AiFillTikTok } from 'react-icons/ai';
 
 const HomePage = () => {
   return (
-    <div id="about" className="w-full flex flex-col items-center px-4 py-8">
-      <h2 className="text-3xl sm:text-4xl font-semibold text-green-500 py-4 text-center">
-        About Us
-      </h2>
+    <div id="homepage" className="w-full flex flex-col items-center px-4 py-8 mt-20">
+     
 
       {/* Text and Image Section */}
       <div className="w-full flex flex-col lg:flex-row items-center lg:items-start gap-6 lg:gap-12 mb-20 p-6">
