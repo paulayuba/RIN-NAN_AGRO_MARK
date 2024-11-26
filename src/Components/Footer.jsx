@@ -13,17 +13,17 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <a href="https://api.whatsapp.com/message/4A5F3MKWL77AB1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
             <FaWhatsapp className="hover:text-green-600 transition-colors duration-200" />
           </a>
         </li>
         <li>
-          <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+          <a href="https://www.tiktok.com/@cletusdanladi?_t=8rNp1Bp14VT&_r=1" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
             <AiFillTikTok className="hover:text-black transition-colors duration-200" />
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <a href="https://help.instagram.com/697961817256175/?helpref=uf_share" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <FaInstagram className="hover:text-pink-600 transition-colors duration-200" />
           </a>
         </li>
