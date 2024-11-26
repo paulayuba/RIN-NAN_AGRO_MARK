@@ -12,10 +12,10 @@ const HomePage = () => {
       <div className="w-full flex flex-col lg:flex-row items-center lg:items-start gap-6 lg:gap-12 mb-20 p-6">
         {/* Text Section */}
         <div className="flex flex-col items-start justify-center text-center mt-20 lg:text-left lg:w-1/2">
-          <p className="text-green-300 text-2xl sm:text-3xl md:text-4xl font-semibold leading-relaxed">
+          <p className="text-green-500 text-3xl sm:text-3xl md:text-4xl font-thin leading-relaxed">
             Founded in Year 2020,
-            <span className="text-green-900 block">RIN'NAN AGRO MART NIGERIA LIMITED</span>
-            was established with a vision to support the Nigerian agricultural sector by providing reliable and high-quality agrochemicals and agricultural services.
+            <span className="text-green-900 block py-3 font-semibold">RIN'NAN AGRO MART NIGERIA LIMITED</span>
+            <span className='py-2'> was established with a vision to support the</span> Nigerian agricultural sector by providing reliable and high-quality agrochemicals and agricultural services.
           </p>
           <div className="mt-6">
             <a
