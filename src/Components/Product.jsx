@@ -8,10 +8,11 @@ import product1 from '../assets/product1.jpg';
 import product2 from '../assets/product2.jpg';
 import product3 from '../assets/product3.jpg';
 import product4 from '../assets/product4.jpg';
+import productImage from "../assets/productImage.jpg"
 
 const partnerImages = [product1, product2, product3, product4];
 
-const Partners = () => {
+const Product = () => {
   const controls = useAnimationControls();
   const [width, setWidth] = useState(0);
 
@@ -63,9 +64,10 @@ const Partners = () => {
             />
           </div>
         ))}
+       
       </motion.div>
     </div>
   );
 };
 
-export default Partners;
+export default Product;

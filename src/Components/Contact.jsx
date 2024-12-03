@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className=" text-white py-20">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl text-black font-bold text-center mt-8">Contact Me</h2>
+        <h2 className="text-4xl text-black font-bold text-center mt-8">Contact Us</h2>
         <div className="flex flex-col md:flex-row items-center md:space-x-12 mt-12">
           {/* Contact Info Section */}
           <div className="md:mb-0 space-y-6 text-center md:text-left">
@@ -16,7 +16,7 @@ const Contact = () => {
             </div>
             <div className="mb-4">
               <FaMapMarkedAlt className="inline-block text-green-400 mr-2" />
-              <span className="text-black text-2xl">, City, Nigeria</span>
+              <span className="text-black text-2xl">international, City, Nigeria</span>
             </div>
           </div>
 
