@@ -47,7 +47,7 @@ const Navbar = () => {
         {/* Contact Button */}
         <a
           href="/contact"
-          className="outline-double outline-3 outline-offset-2 rounded-full py-3 px-8 bg-white text-green-500 font-bold outline-green-700 hidden md:inline-block"
+          className="outline-double outline-3 outline-offset-2 rounded-full py-3 px-8 bg-white text-green-500 font-bold outline-green-700"
         >
           Contact Us
         </a>
