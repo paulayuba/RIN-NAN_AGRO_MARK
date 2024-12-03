@@ -8,9 +8,9 @@ import product1 from '../assets/product1.jpg';
 import product2 from '../assets/product2.jpg';
 import product3 from '../assets/product3.jpg';
 import product4 from '../assets/product4.jpg';
-import productImage from "../assets/productImage.jpg"
+import image8 from "../assets/image8.jpg"
 
-const partnerImages = [product1, product2, product3, product4];
+const partnerImages = [product1, product2, product3, product4, image8];
 
 const Product = () => {
   const controls = useAnimationControls();
@@ -44,7 +44,10 @@ const Product = () => {
   }, [controls, width]);
 
   return (
-    <div className="flex flex-row justify-center items-center my-16 relative overflow-hidden">
+    <div
+      className="flex flex-row justify-center items-center mt-20 relative overflow-hidden"
+      style={{ marginTop: '100px' }} // Adjust based on Navbar height
+    >
       <motion.div
         className="flex"
         animate={controls}
@@ -64,7 +67,6 @@ const Product = () => {
             />
           </div>
         ))}
-       
       </motion.div>
     </div>
   );

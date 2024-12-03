@@ -5,7 +5,7 @@ import { AiFillTikTok } from 'react-icons/ai';
 
 const HomePage = () => {
   return (
-    <div id="homepage" className="w-full flex flex-col items-center px-4 py-8 mt-20">
+    <div id="homepage" className="w-full flex flex-col items-center px-4 py-8 mt-24">
      
 
       {/* Text and Image Section */}
@@ -15,7 +15,7 @@ const HomePage = () => {
           <p className="text-green-500 text-3xl sm:text-3xl md:text-4xl font-thin leading-relaxed">
             Founded in Year 2020,
             <span className="text-green-900 block py-3 font-semibold">RIN'NAN AGRO MART NIGERIA LIMITED</span>
-            <span className='py-2'> was established with a vision to support the</span> Nigerian agricultural sector by providing reliable and high-quality agrochemicals and agricultural services.
+             was established with a vision to support the Nigerian agricultural sector by providing reliable and high-quality agrochemicals and agricultural services.
           </p>
           <div className="mt-6">
             <a
