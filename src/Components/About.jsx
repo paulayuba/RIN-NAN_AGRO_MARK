@@ -6,7 +6,7 @@ import { AiFillTikTok } from 'react-icons/ai';
 
 const About = () => {
   return (
-    <div id="about" className="w-full flex flex-col items-center px-10 py-8">
+    <div id="/about" className="w-full flex flex-col items-center px-10 py-8">
       {/* Title */}
       <h2 className="text-3xl sm:text-4xl font-semibold text-green-500 py-4 text-center">
         About Us

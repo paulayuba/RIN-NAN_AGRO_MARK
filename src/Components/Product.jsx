@@ -44,7 +44,7 @@ const Product = () => {
   }, [controls, width]);
 
   return (
-    <div
+    <div id='/product'
       className="flex flex-row justify-center items-center mt-20 relative overflow-hidden"
       style={{ marginTop: '100px' }} // Adjust based on Navbar height
     >
