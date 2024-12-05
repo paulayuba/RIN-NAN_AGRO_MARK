@@ -24,7 +24,7 @@ const About = () => {
           the backbone of the nation's economy. Our mission is to empower
           farmers with the tools, products, and knowledge they need to succeed.
           From providing top-quality agrochemicals to offering expert consultation 
-          and support, we are dedicated to ensuring the success of our clients
+          and support, we are dedicated to ensuring the success of our clients.
         </p>
       </div>
     </div>

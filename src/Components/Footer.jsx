@@ -23,7 +23,7 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="https://help.instagram.com/697961817256175/?helpref=uf_share" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcletusdanladishikwam%2F%3Figsh%3DbDI1cm9tdnR6bGd2%26fbclid%3DIwY2xjawG-gf5leHRuA2FlbQIxMAABHavpZlqy8aUJfepYSWyQb9YYkGW4lIMm6N6vT384ZeblV3urECCkBYgsLw_aem_B2IBXhpkc-SITYsRx30tzg&is_from_rle" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <FaInstagram className="hover:text-pink-600 transition-colors duration-200" />
           </a>
         </li>
