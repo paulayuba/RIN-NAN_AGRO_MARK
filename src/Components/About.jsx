@@ -24,10 +24,7 @@ const About = () => {
           the backbone of the nation's economy. Our mission is to empower
           farmers with the tools, products, and knowledge they need to succeed.
           From providing top-quality agrochemicals to offering expert consultation 
-          and support, we are dedicated to ensuring the success of our clients and
-          the sustainability of their farming practices. Our goal is to empower Nigerian farmers with the best agricultural 
-          inputs and services, helping them increase productivity while 
-          promoting environmental responsibility.
+          and support, we are dedicated to ensuring the success of our clients
         </p>
       </div>
     </div>
