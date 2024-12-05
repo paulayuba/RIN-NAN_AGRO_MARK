@@ -3,14 +3,14 @@ import aboutImage2 from "../assets/aboutImage2.jpg";
 
 const About = () => {
   return (
-    <div id="/about" className="w-full flex flex-col items-center px-10 py-8">
+    <div id="/about" className="w-full flex flex-col items-center px-4">
       {/* Title */}
-      <h2 className="text-3xl sm:text-4xl font-semibold text-green-500 py-4 text-center">
+      <h2 className="text-3xl sm:text-4xl font-semibold text-green-500 text-center">
         About Us
       </h2>
 
       {/* Images and Text Section */}
-      <div className="w-full flex flex-col lg:flex-row-reverse justify-between items-center gap-6 lg:gap-10 p-6">
+      <div className="w-full flex flex-col lg:flex-row-reverse justify-between items-center gap-4 lg:gap-10 p-6">
         {/* Image */}
         <img
           className="w-full lg:w-1/2 h-64 lg:h-auto object-cover"
