@@ -1,8 +1,5 @@
 import React from 'react';
-import aboutpage from "../assets/aboutpage.jpg";
-import aboutimage from "../assets/aboutimage.jpg";
-import { FaFacebookF, FaWhatsapp, FaInstagram } from 'react-icons/fa';
-import { AiFillTikTok } from 'react-icons/ai';
+import aboutImage2 from "../assets/aboutImage2.jpg";
 
 const About = () => {
   return (
@@ -12,21 +9,27 @@ const About = () => {
         About Us
       </h2>
 
-      {/* Images Section */}
-      <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-10 mb-20 border rounded-md shadow-2xl p-4">
+      {/* Images and Text Section */}
+      <div className="w-full flex flex-col lg:flex-row-reverse justify-between items-center gap-6 lg:gap-10 p-6">
+        {/* Image */}
         <img
-          className="w-full lg:w-1/2 h-auto rounded-lg object-cover"
-          src={aboutpage}
+          className="w-full lg:w-1/2 h-64 lg:h-auto object-cover"
+          src={aboutImage2}
           alt="About Page"
         />
-        <img
-          className="w-full lg:w-1/2 h-auto rounded-lg object-cover"
-          src={aboutimage}
-          alt="About Image"
-        />
-      </div>
 
-      {/* Footer Section */}
+        {/* Text */}
+        <p className="text-base font-semibold sm:text-lg text-gray-700 text-justify md:text-2xl lg:w-1/2">
+          At RIN'NAN AGRO MART NIGERIA LIMITED, we believe that agriculture is
+          the backbone of the nation's economy. Our mission is to empower
+          farmers with the tools, products, and knowledge they need to succeed.
+          From providing top-quality agrochemicals to offering expert consultation 
+          and support, we are dedicated to ensuring the success of our clients and
+          the sustainability of their farming practices. Our goal is to empower Nigerian farmers with the best agricultural 
+          inputs and services, helping them increase productivity while 
+          promoting environmental responsibility.
+        </p>
+      </div>
     </div>
   );
 };

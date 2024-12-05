@@ -1,20 +1,20 @@
 import React from 'react';
-import Card1 from "../assets/Card1.jpg";
-import Card2 from "../assets/Card2.jpg";
-import Card5 from "../assets/Card5.jpg";
-import Card6 from "../assets/Card6.jpg";
-import Card8 from "../assets/Card8.jpg";
-import Card9 from "../assets/Card9.jpg";
+import map1 from "../assets/map1.jpg";
+import map2 from "../assets/map2.jpg";
+import map3 from "../assets/map3.jpg";
+import map4 from "../assets/map4.jpg";
+import map5 from "../assets/map5.jpeg";
+import map6 from "../assets/map6.jpg";
 import { FaFacebookF, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import { AiFillTikTok } from 'react-icons/ai';
 
 const Card = [
-  { image: Card2, id: "four", description: "Improve soil health and fertility." },
-  { image: Card5, id: "five", description: "Provide high-quality farming tools." },
-  { image: Card6, id: "six",  description: "Support sustainable agriculture." },
-  { image: Card1, id: "seven", description: "Deliver innovative crop solutions." },
-  { image: Card8, id: "eight", description: "Boost water efficiency in farming." },
-  { image: Card9, id: "nine", description: "Enhance pest and weed control." },
+  { image: map1, id: "one", description: "Increased Crop Yields: Our products help farmers achieve higher yields and better crop quality." },
+  { image: map2, id: "two", description: "Effective Pest Control: Ourpesicides and herbicides help control pests and weeds, reducing crop damage." },
+  { image: map3, id: "three",  description: "Improved Crop Health: Our fungicides and fertilizers promote healthy plant growth and development." },
+  { image: map4, id: "four", description: "Enhanced Food Security: By increasing crop yields, we contribute to food security and sustainability." },
+  { image: map5, id: "five", description: "Cost-Effective: Our products help farmers reduce costs associated with crop damage and loss." },
+  { image: map6, id: "six", description: "Environmentally Friedly:We offereco-friendly options and advise on sustainable agricultural practices." },
 ];
 
 const Services = () => {

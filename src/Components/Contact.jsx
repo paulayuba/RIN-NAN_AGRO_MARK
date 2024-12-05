@@ -6,16 +6,16 @@ const Contact = () => {
     <div id="/contact" className="text-black py-20 bg-gray-100">
       <div className="container mx-auto px-4">
         {/* Contact Info Section */}
-        <h2 className="text-4xl text-black font-bold text-center mt-8">Contact Us</h2>
+        <h2 className="text-5xl cursor-pointer text-black font-bold text-center mt-8">Contact Us</h2>
         
         <div className="mt-6 flex flex-col items-center space-y-6">
           <div className="flex items-center">
             <FaPhone className="text-green-400 mr-4 text-xl" />
-            <span className="text-black text-2xl">07036348913</span>
+            <span className="text-black text-2xl cursor-pointer">07036348913</span>
           </div>
           <div className="flex items-center">
             <FaMapMarkedAlt className="text-green-400 mr-4 text-xl" />
-            <span className="text-black text-2xl">International, City, Nigeria</span>
+            <span className="text-black text-2xl cursor-pointer">International, City, Nigeria</span>
           </div>
         </div>
 

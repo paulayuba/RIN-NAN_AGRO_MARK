@@ -27,7 +27,7 @@ const Navbar = () => {
             isOpen ? "flex" : "hidden"
           } md:flex flex-col md:flex-row items-center gap-6 font-medium text-xl absolute md:static bg-green-500 w-full left-0 top-full md:top-auto mt-4 md:mt-0 md:w-auto transition-all duration-300`}
         >
-          <li className="py-1 hover:underline cursor-pointer">
+          <li className="py-1 underline hover:underline cursor-pointer">
             <a href="/">Home</a>
           </li>
           <li className="py-1 hover:underline cursor-pointer">
