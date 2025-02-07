@@ -31,22 +31,22 @@ const Navbar = () => {
             <a href="/">Home</a>
           </li>
           <li className="py-1 hover:underline cursor-pointer">
-            <a href="/about">About</a>
+            <a href="about">About</a>
           </li>
           <li className="py-1 hover:underline cursor-pointer">
-            <a href="/service">Service</a>
+            <a href="service">Service</a>
           </li>
           <li className="py-1 hover:underline cursor-pointer">
-            <a href="/product">Product</a>
+            <a href="product">Product</a>
           </li>
           <li className="py-1 hover:underline cursor-pointer">
-            <a href="/footer">Contact US</a>
+            <a href="footer">Contact US</a>
           </li>
         </ul>
 
         {/* Contact Button */}
         <a
-          href="/contact"
+          href="contact"
           className="outline-double outline-3 outline-offset-2 rounded-full py-3 px-8 bg-white text-green-500 font-bold outline-green-700"
         >
           Contact Us
