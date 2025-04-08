@@ -24,7 +24,7 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-6 lg:ml-28 py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Contact Form */}
         <div>
-          <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+          <h2 className="text-2xl font-semibold mb-4 cursor-pointer">Contact Us</h2>
           <form className="space-y-4">
             <div>
               <label className="block text-sm font-medium">Your Name</label>
@@ -68,8 +68,8 @@ const Contact = () => {
 
         {/* Get in Touch */}
         <div className="ml-10">
-          <h2 className="text-2xl sm:text- font-semibold mb-4">Get In Touch</h2>
-          <ul className="space-y-4 mt-10">
+          <h2 className="text-2xl sm:text- font-semibold mb-4 cursor-pointer">Get In Touch</h2>
+          <ul className="space-y-4">
             <li className="flex items-center space-x-4">
               <FontAwesomeIcon icon={faPhone} className="text-blue-600 w-5" />
               <span>
@@ -88,7 +88,7 @@ const Contact = () => {
           <h3 className="mt-6 font-semibold">Follow Us On</h3>
           <ul className="flex items-center space-x-6 list-none text-3xl mt-6 md:mt-32">
             <li>
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <a href="https://www.facebook.com/cletus.danladi" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <FaFacebookF className="hover:text-blue-600 transition-colors duration-200" />
               </a>
             </li>

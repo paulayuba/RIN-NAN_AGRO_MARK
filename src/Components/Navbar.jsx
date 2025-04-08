@@ -11,10 +11,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-green-500 fixed top-0 w-full left-0 py-4 px-2 text-white flex justify-between items-center border-t-4 z-50">
+    <div className="bg-green-500 fixed top-0 w-full left-0 py-2 px-2 text-white flex justify-between items-center border-t-4 z-50">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
-        <img className="w-28 h-28 rounded-full" src={logo1} alt="Logo" />
+        <img className="w-20 h-20 rounded-full" src={logo1} alt="Logo" />
 
         {/* Mobile Menu Icon */}
         <button onClick={toggleMenu} className="md:hidden text-3xl">

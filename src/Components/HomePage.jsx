@@ -1,21 +1,28 @@
 import React from 'react';
-import home1 from "../assets/home1.jpg"
-import { FaFacebookF, FaWhatsapp, FaInstagram } from 'react-icons/fa';
-import { AiFillTikTok } from 'react-icons/ai';
+import image3 from "../assets/image3.jpg";
+import image4 from "../assets/image4.jpg";
+import image7 from "../assets/image7.jpg";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+const images = [image3, image4, image7];
 
 const HomePage = () => {
   return (
-    <div id="/" className="w-full flex flex-col items-center px-4 py-8 mt-24">
-     
+    <div id="home" className="w-full flex flex-col items-center justify-start">
 
-      {/* Text and Image Section */}
-      <div className="w-full flex flex-col lg:flex-row items-center lg:items-start gap-6 lg:gap-12 mb-20 p-6">
-        {/* Text Section */}
-        <div className="flex flex-col items-start justify-center text-center mt-20 lg:text-left lg:w-1/2">
-          <p className="text-green-500 text-3xl sm:text-3xl md:text-4xl font-thin leading-relaxed">
+      {/* Text Section */}
+      <div className="w-full flex flex-col items-center gap-6 py-16 px-4">
+        <div className="flex flex-col items-start justify-center text-center lg:text-left w-full max-w-5xl">
+          <p className="text-green-500 text-3xl sm:text-4xl md:text-5xl font-thin leading-relaxed">
             Founded in Year 2020,
-            <span className="text-green-900 block py-3 font-semibold">RIN'NAN AGRO MART NIGERIA LIMITED</span>
-             was established with a vision to support the Nigerian agricultural sector by providing reliable and high-quality agrochemicals and agricultural services.
+            <span className="text-green-900 block py-4 font-semibold">
+              RIN'NAN AGRO MART NIGERIA LIMITED
+            </span>
+            was established with a vision to support the Nigerian agricultural sector by providing reliable and high-quality agrochemicals and agricultural services.
           </p>
           <div className="mt-6">
             <a
@@ -26,19 +33,29 @@ const HomePage = () => {
             </a>
           </div>
         </div>
-
-        {/* Image Section */}
-        <div className="flex-shrink-0 lg:w-1/2">
-          <img
-            className="w-full h-auto rounded-lg object-cover"
-            src={home1}
-            alt="About Page"
-          />
-        </div>
       </div>
 
-      {/* Footer Section */}
-
+      {/* Swiper Image Section at Bottom */}
+      <div className="w-screen h-[500px] relative">
+        <Swiper
+          modules={[Autoplay, Pagination, Navigation]}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          loop={true}
+          pagination={{ clickable: true }}
+          navigation={true}
+          className="w-full h-full"
+        >
+          {images.map((img, index) => (
+            <SwiperSlide key={index}>
+              <img
+                src={img}
+                alt={`slide-${index}`}
+                className="w-full h-full object-cover px-10"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
 };
