@@ -1,8 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
-import logo1 from "../assets/logo1.jpg";
+import logo1 from "../assets/logo1.jpg"; // Make sure the path is correct
 import { IoMenuSharp } from "react-icons/io5";
 import { VscClose } from "react-icons/vsc";
 
@@ -18,25 +17,15 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
-          <Image
+          <img
             src={logo1}
             alt="Logo"
             width={80}
             height={80}
             className="rounded-full"
-            priority
           />
         </div>
 
-        {/* Contact Button (hidden on mobile) */}
-        <div className="hidden md:block">
-          <a
-            href="#ContactUS"
-            className="outline-double outline-3 outline-offset-2 rounded-full py-3 px-6 bg-white text-green-500 font-bold outline-green-700"
-          >
-            Contact Us
-          </a>
-        </div>
 
         {/* Mobile Menu Icon */}
         <button onClick={toggleMenu} className="md:hidden text-3xl z-50 relative">
@@ -66,10 +55,10 @@ const Navbar = () => {
           </li>
 
           {/* Mobile-only Contact Button */}
-          <li className="block md:hidden mt-2">
+          <li className="block md: mt-2">
             <a
               href="#ContactUS"
-              className="outline-double outline-2 rounded-full py-2 px-6 bg-white text-green-500 font-bold outline-green-700"
+              className="outline-double outline-2 rounded-full py-3 px-6 bg-white text-green-500 font-bold outline-green-700"
             >
               Contact Us
             </a>
