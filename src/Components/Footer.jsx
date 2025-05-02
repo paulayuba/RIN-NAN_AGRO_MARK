@@ -31,18 +31,18 @@ const Footer = () => {
       </ul>
 
       {/* Navigation Links */}
-      <ul className="text-lg md:text-xl uppercase space-y-2 md:space-y-4 mt-6 md:mt-0">
-        <li className="hover:underline cursor-pointer">
-          <a href="/">Home</a>
+      <ul className="text-lg md:text-xl uppercase space-y-2 md:space-y-4 mt-6 flex space-x-6 sm:mt-10">
+        <li className="hover:underline cursor-pointer mt-4">
+          <a href="#">Home</a>
         </li>
         <li className="hover:underline cursor-pointer">
-          <a href="/about">About</a>
+          <a href="#About">About</a>
         </li>
         <li className="hover:underline cursor-pointer">
-          <a href="/service">Service</a>
+          <a href="#Service">Service</a>
         </li>
         <li className="hover:underline cursor-pointer">
-          <a href="/product">Product</a>
+          <a href="#Product">Product</a>
         </li>
       </ul>
     </div>

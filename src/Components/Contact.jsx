@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div>
       {/* Header Section */}
-      <div
+      <div id="Contact US"
         className="relative bg-cover bg-center h-72"
         style={{
           backgroundImage:

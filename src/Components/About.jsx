@@ -3,7 +3,7 @@ import aboutImage2 from "../assets/aboutImage2.jpg";
 
 const About = () => {
   return (
-    <div id="/about" className="w-full flex flex-col items-center px-4">
+    <div id="About" className="w-full flex flex-col items-center px-4">
       {/* Title */}
       <h2 className="text-3xl sm:text-4xl font-semibold text-green-500 text-center">
         About Us
